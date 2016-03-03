@@ -23,6 +23,17 @@ npm i
 npm run start
 ```
 
+### hosting an example ( gh-pages )
+By default components come with an examples page it order to publish that
+```
+npm run build
+git add . -A
+git commit -m "Your message"
+git push origin gh-pages
+```
+
+If you have an specific documentation in your component you can add that in `docs/README.md`
+
 ### testing
 
 ```shell
