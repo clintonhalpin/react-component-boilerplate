@@ -6,7 +6,7 @@ A nice setup for creating react components that can be consumed as NPM modules. 
 git clone git@github.com:clintonhalpin/react-component-boilerplate.git YOUR_COMPONENT_NAME
 
 # Update the following exports and folder/file names with your component name eg. MyComponent -> Slider
-package.json, lib/MyComponent, lib/MyComponent/index.js, example/index.js, README.md
+package.json, src/MyComponent, src/MyComponent/index.js, example/index.js, README.md
 
 # Now work on your component
 # When complete run
@@ -45,7 +45,8 @@ npm run test
 | Script  | Action |
 | ------------- | ------------- |
 | `start`  | Run Dev Server  |
-| `build`  | compile `example`  |
+| `build`  | compile `example` and build common:js  |
+| `build:commonjs`  | build common:js to lib  |
 | `test`  | run unit tests |
 | `test:watch`  | run unit tests with watch |
 
