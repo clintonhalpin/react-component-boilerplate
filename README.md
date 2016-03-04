@@ -10,6 +10,7 @@ package.json, src/MyComponent, src/MyComponent/index.js, example/index.js, READM
 
 # Now work on your component
 # When complete run
+npm run build
 npm publish
 ```
 
