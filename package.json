@@ -1,5 +1,5 @@
 {
-  "name": "react-component-boilerplate",
+  "name": "react-component-starter-test",
   "version": "1.0.1",
   "description": "A boilerplate for shipping tiny react components",
   "main": "lib/index.js",
