@@ -1,6 +1,6 @@
 {
   "name": "react-component-starter-test",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A boilerplate for shipping tiny react components",
   "main": "lib/index.js",
   "directories": {
@@ -32,6 +32,12 @@
   },
   "homepage": "https://github.com/clintonhalpin/react-component-boilerplate#readme",
   "dependencies": {
+    "react": "^0.14.7"
+  },
+  "devDependencies": {
+    "jsdom": "^8.0.2",
+    "mocha": "^2.4.5",
+    "react-addons-test-utils": "^0.14.7",
     "babel": "^6.5.2",
     "babel-core": "^6.3.15",
     "babel-loader": "^6.2.0",
@@ -45,18 +51,12 @@
     "expect": "^1.14.0",
     "expect-jsx": "^2.3.0",
     "express": "^4.13.4",
-    "react": "^0.14.7",
-    "react-dom": "^0.14.7",
-    "react-router": "2.0.0-rc5",
     "react-router-redux": "^2.1.0",
     "style-loader": "^0.13.0",
     "webpack": "^1.9.11",
     "webpack-dev-middleware": "^1.2.0",
-    "webpack-hot-middleware": "^2.2.0"
-  },
-  "devDependencies": {
-    "jsdom": "^8.0.2",
-    "mocha": "^2.4.5",
-    "react-addons-test-utils": "^0.14.7"
+    "webpack-hot-middleware": "^2.2.0",
+    "react-dom": "^0.14.7",
+    "react-router": "2.0.0-rc5"
   }
 }
