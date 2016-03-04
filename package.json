@@ -9,7 +9,9 @@
   },
   "scripts": {
     "start": "node server.js",
-    "build": "NODE_ENV=production webpack -p  --optimize-dedupe",
+    "build:example": "NODE_ENV=production webpack -p  --optimize-dedupe",
+    "build:commonjs": "BABEL_ENV=commonjs babel src --out-dir lib",
+    "build": "npm run build:example && npm run build:commonjs", 
     "test": "NODE_ENV=production mocha --compilers js:babel-core/register --recursive --require ./test/setup.js",
     "test:watch": "npm test --watch",
     "clean": "rm -rf dist"
