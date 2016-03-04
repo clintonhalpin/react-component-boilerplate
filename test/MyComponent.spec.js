@@ -4,7 +4,7 @@ import expectJSX from 'expect-jsx';
 expect.extend(expectJSX);
 import React from 'react';
 import TestUtils from 'react-addons-test-utils';
-import { MyComponent } from './../lib/';
+import { MyComponent } from './../src/';
 
 function setup() {
   let renderer = TestUtils.createRenderer();
@@ -18,7 +18,7 @@ function setup() {
 }
 
 describe('components', () => {
-  describe('Header', () => {
+  describe('MyComponent', () => {
     it('should render', () => {
       const { output } = setup();
       expect(output.type).toBe('div');
