@@ -50,7 +50,7 @@ npm run test
 | `test:watch`  | run unit tests with watch |
 
 ### examples
-[tbd]
+- [react-image-panel](https://www.npmjs.com/package/react-image-panel) 
 
 =
 
