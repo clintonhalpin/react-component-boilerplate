@@ -2,7 +2,6 @@ import 'babel-polyfill';
 import React, { Component, PropTypes } from 'react';
 import { render } from 'react-dom';
 import { MyComponent } from './../src/';
-import config from './../package.json';
 
 export class Root extends Component {
   render() {
